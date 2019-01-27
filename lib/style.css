@@ -6,14 +6,24 @@ body {
   font-size: 24px;
   text-align: center;
   font-weight: 300;
+  background-color: #F6EBFF;
 }
 
 h1 {
+  font-size: 25px;
+  padding: 18px 0px 18px 0px;
+  margin: 0px 0px 0px 0px;
+  color: #68BAA6;
+  background-color: #7D70A2;
+}
+
+h2 {
   font-size: 50px;
   padding: 18px 0px 18px 0px;
   margin: 0px 0px 0px 0px;
-  color: rgb(253,18,116);
-  background-color: black;
+
+  color: #0B2BCF;
+  background-color: #7D70A2;
 }
 
 h4 {
@@ -24,7 +34,7 @@ h4 {
 button {
   text-align: center;
   color: white;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 200;
   border-radius: 30px;
   background-color: rgb(146,148,151);
@@ -38,5 +48,5 @@ button:disabled {
 }
 
 button:hover {
-  background-color: rgb(253,18,116);
+  background-color: #0B2BCF;
 }

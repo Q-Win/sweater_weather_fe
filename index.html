@@ -2,15 +2,43 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./lib/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,700" rel="stylesheet">
   <title>Self Directed FD Starter</title>
 </head>
 <body>
+    <h2> WELCOME TO SWEATER WEATHER </h2>
       <!--  the a tag below can link you to another HTML page  -->
       <!--  if you click the button in the browser right now, you'll get an error because that is not a real file path -->
-      <a href="<file path"><button class="default-button">GO TO OTHER PAGE</button></a>
+
+      <input class ="city" type="text" placeholder="Choose a city" >
+      <a><button class="input-buttons" id= "city-forecast" type="button" >Get Weather</button></a>
+      <div>
+        <h4 class ="current"></h4>
+        <h4 class ="current-temp"></h4>
+      </div>
+      <h1> Current weather conditions in your favorite cities</h1>
+      <div id ="favorite_cities">
+
+      </div>
+      <h1> Add Another Favorite City</h1>
+      <div>
+        <input class ="new-favorite" type="text" placeholder="Choose a city" >
+        <a><button class="input-buttons" id= "add-favorite" type="button" >Add Favoite</button></a>
+      </div>
+
+      <h1> Remove a Favorite City</h1>
+      <div>
+        <input class ="delete-city" type="text" placeholder="Choose a city" >
+        <a><button class="input-buttons" id= "delete-favorite" type="button" >Remove Favoite</button></a>
+      </div>
+
+
     <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
   <script src="main.bundle.js"></script>
+
+
 </body>
 </html>
